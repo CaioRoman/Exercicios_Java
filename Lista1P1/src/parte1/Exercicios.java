@@ -4,7 +4,7 @@ public class Exercicios {
 
     public static void main(String[] args) {
         Livro L1 = new Livro();
-        L1.altor = "caio";
+        L1.autor = "caio";
         L1.editora = "Roman";
         L1.titulo = "CaioRoman";
         L1.pagina_maxima = 249;

@@ -4,7 +4,7 @@ public class Livro {
     public int pagina_maxima = 100;
     public int pagina_marcada = 1;
     protected int numero_da_pagina;
-    public String altor;
+    public String autor;
     public String editora;
     public String titulo;
     
@@ -45,7 +45,7 @@ public class Livro {
 
     @Override
     public String toString() {
-        return "Livro{" + "pagina_marcada=" + pagina_marcada + ", numero_da_pagina=" + numero_da_pagina + ", altor=" + altor + ", editora=" + editora + ", titulo=" + titulo + '}';
+        return "Livro{" + "pagina_marcada=" + pagina_marcada + ", numero_da_pagina=" + numero_da_pagina + ", autor=" + autor + ", editora=" + editora + ", titulo=" + titulo + '}';
     }
     
     
